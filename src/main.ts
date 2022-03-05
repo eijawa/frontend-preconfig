@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 
 // @ts-ignore
-import { router } from "@/router/router.ts";
+import { router } from "@/router/router";
 
 import { createPinia } from "pinia";
 import App from "./App.vue";
