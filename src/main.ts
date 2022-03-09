@@ -1,16 +1,8 @@
-import { createApp } from "vue";
+import "@/style.scss";
 
-import { router } from "@/router/router";
+const app = document.querySelector<HTMLDivElement>("#app")!;
 
-import { createPinia } from "pinia";
-import App from "./App.vue";
-
-import "./tailwindcss.css";
-
-import InlineSvg from "vue-inline-svg";
-
-createApp(App)
-  .use(router)
-  .use(createPinia())
-  .component("InlineSvg", InlineSvg)
-  .mount("#app");
+app.innerHTML = `
+  <h1>Hello Vite!</h1>
+  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+`;
