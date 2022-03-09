@@ -29,11 +29,6 @@ export default defineConfig({
     eslintPlugin(),
     Components({
       dts: true,
-      resolvers: [
-        HeadlessUiResolver({
-          prefix: "",
-        }),
-      ],
     }),
   ],
 });

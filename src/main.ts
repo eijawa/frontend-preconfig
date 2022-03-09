@@ -5,8 +5,6 @@ import { router } from "@/router/router";
 import { createPinia } from "pinia";
 import App from "./App.vue";
 
-import "./tailwindcss.css";
-
 import InlineSvg from "vue-inline-svg";
 
 createApp(App)
